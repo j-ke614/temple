@@ -10,8 +10,11 @@ html {
 -webkit-box-sizing: border-box; 
 box-sizing: border-box;
  }
+ * {
+  box-sizing: border-box;
+}
 
-html{
+html {
   margin: 0;
   padding: 0;
 }
@@ -19,8 +22,7 @@ html{
 body{
   margin:0;
   padding: 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35));
-  background-image: url("sl-temple.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(https://github.com/j-ke614/temple/blob/main/images/sl-temple.png) no-repeat;
   background-size: cover;
   color: black;
   font-family: "open sans";
@@ -30,7 +32,7 @@ body{
   justify-content: space-between;
 }
 
-/* ----------------NAVIGATION----------------*/
+/* ------------------------ NAVBAR ----------------*/
 
 
 header{
@@ -79,6 +81,10 @@ nav li a:hover{
   color: black;
 }
 
+
+
+/* ------------------------ TOP SECTION ----------------*/
+
 .titles{
   color: white;
   text-align: center;
@@ -98,6 +104,10 @@ nav li a:hover{
   letter-spacing: 3px;
   text-shadow: 1px 1px 0 black;
 }
+
+/* ------------------------ BOT SECTION ----------------*/
+
+
 
 .container-boxes{
   margin: 0 auto;
