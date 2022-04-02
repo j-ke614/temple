@@ -1,2 +1,76 @@
 /* 35em is also 560px (if basefont is 16px) */
 @media only screen and (min-width: 25rem) {
+
+
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+
+header h1 {font-size: 2rem;}
+header h2 {font-size: 1.5rem;}
+
+
+
+/*----------- NAVIGATION --------------*/
+nav ul{display: none;} 
+
+nav ul.open#primaryNav {
+    display: block;
+    margin-left: 2vw;
+    border-right: 1px solid rgba(0,0,0,0.5);
+    
+}
+nav ul li {float: left;}
+
+nav ul li a{
+    padding: .5rem 1rem;
+    border-right: 1px solid rgba(0,0,0,0.5);
+}
+
+
+/*----------- MAIN --------------*/
+  main {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px; */
+  }
+
+/*----------- FOOTER --------------*/
+footer {
+    color:#FDFDFD;
+    background-color: #5890FF;
+    padding: .5rem 2%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-height: fit-content;
+}
+  
+footer img {
+    margin-right: 10px; width: 15%;
+}
+    
+footer div.footer-content-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+    
+footer div div.footer-logo-side {
+    display: flex;
+    align-items: flex-end;
+    text-align: left;
+    margin-top: -2rem;
+}
+    
+footer div div.footer-logo-side p {
+    padding: 2rem;
+}
+    
+footer div div.footer-map-side {
+    text-align: right;
+}
+    
+} /* end of media query */

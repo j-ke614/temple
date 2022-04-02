@@ -1,14 +1,79 @@
 /* 64em is also 1028px (if basefont is 16px) */
 @media only screen and (min-width: 64rem) {
 /*----------- BODY --------------*/
+header div.header-content,
+main, nav ul, footer {
+    max-width: 64rem;
+    margin: auto;
+}
 
+.discover-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
 /*----------- HEADER --------------*/
 
 /*----------- NAVIGATION --------------*/
+nav ul {
+    display: block;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+nav button {display: none;}
+
+nav ul li a {
+    flex-basis: auto;
+    padding: .5rem 1rem;
+}
+
+nav ul#primaryNav {
+    padding: 0 2vw;
+    display: flex;
+}
+
+nav ul li a {
+    display: block;
+    padding: .5rem 1vw;
+    text-decoration: none;
+    color: #333;
+    font-size: white;
+  }
+  
+  nav ul li a:hover {
+    background-color: #000000;
+    color: white;
+  }
+  
+  nav ul li.active a {
+    background-color: #000000;
+    color: white;
+}
+
 
 /*----------- MAIN --------------*/
 
+main {
+    /* display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 65rem;
+    margin:auto; */
+}
+
+div#container p {
+    grid-column: 2/5;
+}
+
+img:hover {
+    box-shadow: 0 0 50px #333;
+}
+
 /*----------- FOOTER --------------*/
+ footer img {
+    float: left; margin-top: 50px; width: auto;
+ }
 
 /* end of media query */
 }
