@@ -50,6 +50,13 @@ button#hamburgerButton {
 margin: 0px;
 }
 
+nav button {
+  /* margin: 0.2rem 2vw; */
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color: #555
+}
 
 nav ul li.active {
   background-color: #000000;
