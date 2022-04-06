@@ -1,0 +1,35 @@
+{
+    "temples": [
+      {
+        "name": "Idaho Falls Temple",
+        "address": "567 W 2nd S",
+        "phone": "208 238 5897",
+        "email": "idhao_falls_temple@lds.org",
+        "img": "./images/",
+        "services": "Rooms, Showers, Breakfast, Pool, Work Out Room"
+      },
+      {
+        "name": "Boise Temple",
+        "address": "3343 W Main",
+        "phone": "208 924 5567",
+        "email": "boise_temple@lds.org",
+        "img": "./images/",
+        "services": "Rooms, Showers, Breakfast, Pool, Work Out Room"
+      },
+      {
+        "name": "Twins Falls Temple",
+        "address": "17 S 17th St",
+        "phone": "208 655 7895",
+        "email": "twin_falls_temple@lds.org",
+        "img": "./images/",
+        "services": "Rooms, Showers, Breakfast, Pool, Work Out Room"
+      },
+      { "name": "Meridian Temple",
+        "address": "2456 S Locust Grove",
+        "phone": "208 924 5567",
+        "email": "boise_temple@lds.org",
+        "img": "./images/",
+        "services": "Rooms, Showers, Breakfast, Pool, Work Out Room"
+      }
+    ]
+  }
