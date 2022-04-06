@@ -1,4 +1,4 @@
-$.getJSON("https://api.openweathermap.org/data/2.5/weather?q=Seattle&units=imperial&appid=ab85ba57bbbb423fb62bfb8201126ede"), 
+$.getJSON("https://api.openweathermap.org/data/2.5/forecast?lat=42.8713&lon=-112.4455&appid={1fc4486682b178960a91c0c0d6b95b25}"), 
 
 function(data){
 
@@ -15,7 +15,7 @@ $('.icon').attr('src', icon);
 $(".temp").append(temp  + ' &#8457;');
 
 $(".weather").append(weather );
-});
+};
 
 function toggleMenu(){
     document.getElementById('primaryNav').classList.toggle('open');   
