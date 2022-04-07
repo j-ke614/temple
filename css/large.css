@@ -67,6 +67,7 @@ picture {
 }
 
 h1.page_id {
+    font-size: 25pt;
     grid-column: 1/2;
     grid-row: 1/2;
 }
