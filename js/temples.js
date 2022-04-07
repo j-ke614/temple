@@ -1,6 +1,6 @@
-const requestURL='https://j-ke614.github.io/wdd230/temple/data/temples.json';
+const requestURL='https://j-ke614.github.io/temple/data/temples.json';
 
-const temples=document.querySelector('.temples');
+const shops=document.querySelector('.shops');
 
 fetch(requestURL)
   .then(function (response) {
@@ -8,40 +8,40 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject);
-    temples= jsonObject['temples'];
-    temples.forEach(displayTemples);
+    companies= jsonObject['companies'];
+    companies.forEach(displayCompanies);
   });
 
 
 
-function displayTemples(temp){
-  let temple=document.createElement('section');
+function displayCompanies(comp){
+  let company=document.createElement('section');
   let img=document.createElement('img');
   let h2=document.createElement('h2');
   let adress=document.createElement('p');
   let phone=document.createElement('p');
   let page=document.createElement('a');
 
-  img.setAttribute('src', temp.img);
-  img.setAttribute('alt', temp.name);
+  img.setAttribute('src', comp.img);
+  img.setAttribute('alt', comp.name);
   img.setAttribute('width', 100);
   img.setAttribute('height', 100);
 
-  h2.textContent=temp.name;
-  adress.textContent=temp.address;
-  phone.textContent=temp.phone;
+  h2.textContent=comp.name;
+  adress.textContent=comp.address;
+  phone.textContent=comp.phone;
 
-  page.textContent=temp.site;
-  page.setAttribute('href', temp.site);
+  page.textContent=comp.site;
+  page.setAttribute('href', comp.site);
 
-  temple.appendChild(img);
-  temple.appendChild(h2);
-  temple.appendChild(adress);
-  temple.appendChild(phone);
-  temple.appendChild(page);
+  company.appendChild(img);
+  company.appendChild(h2);
+  company.appendChild(adress);
+  company.appendChild(phone);
+  company.appendChild(page);
 
 
-  shops.appendChild(temple);
+  shops.appendChild(company);
   
 }
 
