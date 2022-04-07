@@ -147,7 +147,6 @@ img {
 }
 
 main {
-  font-size: large;
   padding: 0.5rem 2vw;
   min-height: 10rem;
 }
@@ -368,6 +367,11 @@ section.contact-info-1{
   border-radius: 10px;
 }
 
+
+div#container {
+  background-color: rgb(255,255,255, .45);
+  border-radius: 15px;
+}
 
 
 /*----------- Weather ----------------*/

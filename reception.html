@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="description" content="Home Page"/>
+<meta name="author" content="Jake Corn"/>
+<title>Home | Patron Servies</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<!-- favicon -->
+<link rel="shortcut icon" href="favicon.ico">
+<!-- STYLE SHEETS -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="css/normalize.css"/>
+<link rel="stylesheet" href="css/base.css"/>
+<link rel="stylesheet" href="css/medium.css"/>
+<link rel="stylesheet" href="css/large.css"/>    
+</head>
+<body>
+
+<!-- HEADER HERE -->
+    <header>
+        <div class="header-content">
+            <div class="img-box"><img src="images/logo.jpg" alt="logo"></div>
+            <h1>Temple Patron Services</h1>
+            <h2>We are here for you while you are here for them.</h2>
+        </div> 
+
+        <div id="date"><span id="currentDate"></span></div> 
+            
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="temple.html">Temple</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="missionary.html">Missionaries</a></li>
+                <li class="active"><a href="reception.html">Receptions</a></li>    
+            </ul>
+        </nav>   
+    </header>
+
+<!--CONTENT--> 
+<main>
+    <div id="container">
+        <h1 class="page_id">Reception Center</h1>
+        <div id="reception"
+            <picture>
+                <img src="images/venue.jpg" alt="venue">
+            </picture>
+        <p>Our Reception Center is a beautiful cultural hall customizableto your every wish. We offer full services catering specializing in many different types
+            of food from all over the world. Make your special day as memorable as possible. 
+        </p>
+        <p>We have a large variety of decoration themes and colors to meet all your needs</p>
+        <p>Call Us to day for more information!</p>
+        </div>
+<!-- FOOTER HERE -->   
+<footer>
+    <div class="footer-content-1">
+        <div class="footer-logo-side">
+            <img src="images/logo.jpg" alt="logo">
+            <p>Temple Patron Services<br />1443 Sawtooth Ave Pocatello, Idaho 83440</p>
+        </div>
+        <div class ="footer-map-side">
+            <p>temple_patron_services@gmail.com<br />+1 208 558-9521</p>
+            <p>
+                <a
+                  target="_blank"
+                  href="https://goo.gl/maps/2rasVwyVBZE4VDxt5"
+                  >Location Map
+                </a>
+            </p>
+        </div>
+    </div>
+    <p>&copy; 2022 Temple Patron Services &#8739; Jake Corn &#8739; WDD 230 &#8739; Updated: 
+    <span id="latestUp"></span>
+    </p>
+    
+</footer>
+<script src="js/scripts.js"></script>
+<script>
+const today = new Date ();
+console.log(today);
+
+    const dayNumber = today.getDay();
+    console.log(dayNumber);
+</script>
+</body>
+</html>
