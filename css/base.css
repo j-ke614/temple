@@ -216,6 +216,11 @@ div#container p {
   grid-column: 2/5;
 }
 
+div#on.grid {
+  background-color: rgb(255,255,255, .65);
+  border-radius: 25px;
+}
+
 div#container {
   grid-column: 1/5;
   text-align: center;
