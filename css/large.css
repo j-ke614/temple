@@ -139,6 +139,10 @@ form {
 form#reservation {
     grid-column: 2/4;
   }
+
+  div.gmap {
+    max-width: 50%;
+  }
 /*----------- DIRECTORY --------------*/
 .directory-font {
     font-size: 0.77em;

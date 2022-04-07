@@ -95,7 +95,7 @@ margin: 0px;
 }
 
 nav button {
-  /* margin: 0.2rem 2vw; */
+  margin: 0.2rem 2vw;
   background: transparent;
   border: none;
   font-size: 2rem;
@@ -127,6 +127,7 @@ nav ul {
 
 nav ul.open {
   display: block;
+  background-color: white;
 }
 
 
@@ -145,6 +146,9 @@ img {
   grid-row: 3/4;
   border-radius: 20px;
 }
+ div.gmap {
+   max-width: 400px;
+ }
 
 main {
   padding: 0.5rem 2vw;
