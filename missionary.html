@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="description" content="Home Page"/>
+<meta name="author" content="Jake Corn"/>
+<title>Home | Patron Servies</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<!-- favicon -->
+<link rel="shortcut icon" href="favicon.ico">
+<!-- STYLE SHEETS -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="css/normalize.css"/>
+<link rel="stylesheet" href="css/base.css"/>
+<link rel="stylesheet" href="css/medium.css"/>
+<link rel="stylesheet" href="css/large.css"/>    
+</head>
+<body>
+
+<!-- HEADER HERE -->
+    <header>
+        <div class="header-content">
+            <div class="img-box"><img src="images/logo.jpg" alt="logo"></div>
+            <h1>Temple Patron Services</h1>
+            <h2>We are here for you while you are here for them.</h2>
+        </div> 
+
+        <div id="date"><span id="currentDate"></span></div> 
+            
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="temple.html">Temple</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li class="active"><a href="missionary.html">Missionaries</a></li>
+                <li><a href="reception.html">Receptions</a></li>    
+            </ul>
+        </nav>   
+    </header>
+    
+<!-- CONTENT HERE -->
+<main>
+    
+        <h1>Missionaries</h1>
+       
+        <section class="contact-info-1">
+         
+          <div class="address">
+            <h4>Temple Patron Services</h4>
+            Pocatello, Idaho 83202<br/><br/>
+            <a href="tel:661111222">(208) 238-6879</a>
+
+            <h5>Office Hours:</h5>
+            <p>Monday - Friday 8:00 AM to 4:00 PM</p>
+          </div>
+
+          
+          <div class="gmap">
+            <a href="https://goo.gl/maps/Tpi2fWoQ7oM89r9h6" target="_blank">
+              <picture>
+                <source
+                  media="(max-width: 320px)"
+                  srcset="images/maps320.png"
+                />
+                <source
+                  media="(max-width: 600px)"
+                  srcset="images/maps600.png"
+                />
+                <source
+                  media="(max-width: 900px)"
+                  srcset="images/maps600.png"
+                />
+                <img
+                  src="images/maps600.png"
+                  alt="area-map"
+                  loading="lazy"
+                  
+                />
+              </picture>
+            </a>
+          </div>
+        </section>
+
+      
+        <section class="contact-info">
+        
+          <div class="point-contact">
+            <h5>Available Services</h5>
+            <p>
+              Changing Rooms
+            </p>
+            
+            <p>
+              Visitor Center for tours
+            </p>
+
+            <p>
+              Rooms for Overnight Stays (Breakfast Inlcuded)
+            </p>
+            
+            <p>
+              Missionary Liason<br />
+              Sister Megan Johnson<br />
+              <a href="mailto:mejohnson@lds.org">mejohnson@lds.org</a
+              >
+            </p>
+          </div>
+        </section>
+    <form>
+        <h2>Contact Us</h2>
+        <p>Contact us For more information!</p>
+
+        <label for="FirstName"><b>First name</b></label>
+        <input type="text" name="firstname" placeholder="Enter First name" required>
+        <label for="LastName"><b>Last name</b></label>
+        <input type="text" name="lastname" placeholder="Enter Last name" required>
+        <label for="Email"><b>Email</b></label>
+        <input type="text" name="email" placeholder="Enter your Email" required>
+        <label for="PhoneNumber"><b>Phone Number</b></label>
+        <input type="text" name="phone-number" placeholder="000-000-0000" required>
+        
+
+        <p>By submitting a request you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+        <div class="clearfix">
+
+            <button type="submit" class="btn" onclick="window.location.href='thankyou-contact.html'">Submit</button>
+        </div>
+    </form>
+</main>
+    
+<!-- FOOTER HERE -->   
+<footer>
+  <div class="footer-content-1">
+      <div class="footer-logo-side">
+          <img src="images/logo.jpg" alt="logo">
+          <p>Temple Patron Services<br />1443 Sawtooth Ave Pocatello, Idaho 83440</p>
+      </div>
+      <div class ="footer-map-side">
+          <p>temple_patron_services@gmail.com<br />+1 208 558-9521</p>
+          <p>
+              <a
+                target="_blank"
+                href="https://goo.gl/maps/2rasVwyVBZE4VDxt5"
+                >Location Map
+              </a>
+          </p>
+      </div>
+  </div>
+  <p>&copy; 2022 Temple Patron Services &#8739; Jake Corn &#8739; WDD 230 &#8739; Updated: 
+  <span id="latestUp"></span>
+  </p>
+  
+</footer>
+<script src="js/scripts.js"></script>
+<script>
+const today = new Date ();
+console.log(today);
+
+  const dayNumber = today.getDay();
+  console.log(dayNumber);
+</script>
+</body>
+</html>

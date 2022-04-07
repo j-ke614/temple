@@ -36,7 +36,7 @@
                 <li><a href="reservations.html">Reservations</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="missionary.html">Missionaries</a></li>
-                <li><a href="contact.html">Contact Us</a></li>    
+                <li><a href="reception.html">Receptions</a></li>    
             </ul>
         </nav>   
     </header>
@@ -156,49 +156,35 @@
     </section>
 </main>
 <!-- FOOTER HERE -->   
-    <footer>
-        <div class="footer-content-1">
-            <div class="footer-logo-side">
-                <img src="images/logo.jpg" alt="logo">
-                <p>Temple Patron Services<br />1443 Sawtooth Ave Pocatello, Idaho 83440</p>
-            </div>
-            <div class ="footer-map-side">
-                <p>temple_patron_services@gmail.com<br />+1 208 558-9521</p>
-                <p>
-                    <a
-                      target="_blank"
-                      href="https://goo.gl/maps/2rasVwyVBZE4VDxt5"
-                      >Location Map
-                    </a>
-                </p>
-            </div>
+<footer>
+    <div class="footer-content-1">
+        <div class="footer-logo-side">
+            <img src="images/logo.jpg" alt="logo">
+            <p>Temple Patron Services<br />1443 Sawtooth Ave Pocatello, Idaho 83440</p>
         </div>
-        <p>&copy; 2022 Temple Patron Services &#8739; Jake Corn &#8739; WDD 230 &#8739; Updated: 
-        <span id="latestUp"></span>
-        </p>
-        
-    </footer>
+        <div class ="footer-map-side">
+            <p>temple_patron_services@gmail.com<br />+1 208 558-9521</p>
+            <p>
+                <a
+                  target="_blank"
+                  href="https://goo.gl/maps/2rasVwyVBZE4VDxt5"
+                  >Location Map
+                </a>
+            </p>
+        </div>
+    </div>
+    <p>&copy; 2022 Temple Patron Services &#8739; Jake Corn &#8739; WDD 230 &#8739; Updated: 
+    <span id="latestUp"></span>
+    </p>
+    
+</footer>
 <script src="js/scripts.js"></script>
-<script src="js/windchill.js"></script>
-<script src="js/last_visit.js"></script>
 <script>
-    const today = new Date ();
-    console.log(today);
+const today = new Date ();
+console.log(today);
 
-        const dayNumber = today.getDay();
-        console.log(dayNumber);
-
-        const banner = document.getElementById("banner");
-        if (dayNumber == 1) {
-            banner.classList.add("showme");
-        } else {
-            banner.classList.add("hideme");
-        }
-        if (dayNumber == 2) {
-            banner.classList.add("showme");
-        } else {
-            banner.classList.add("hideme");
-        }
+    const dayNumber = today.getDay();
+    console.log(dayNumber);
 </script>
 </body>
 </html>

@@ -36,7 +36,7 @@
                 <li><a href="reservations.html">Reservations</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="missionary.html">Missionaries</a></li>
-                <li><a href="contact.html">Contact Us</a></li>    
+                <li><a href="reception.html">Receptions</a></li>    
             </ul>
         </nav>   
     </header>
@@ -76,26 +76,12 @@
     
 </footer>
 <script src="js/scripts.js"></script>
-<script src="js/windchill.js"></script>
-<script src="js/last_visit.js"></script>
 <script>
 const today = new Date ();
 console.log(today);
 
     const dayNumber = today.getDay();
     console.log(dayNumber);
-
-    const banner = document.getElementById("banner");
-    if (dayNumber == 1) {
-        banner.classList.add("showme");
-    } else {
-        banner.classList.add("hideme");
-    }
-    if (dayNumber == 2) {
-        banner.classList.add("showme");
-    } else {
-        banner.classList.add("hideme");
-    }
 </script>
 </body>
 </html>

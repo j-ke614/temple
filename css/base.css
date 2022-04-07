@@ -184,7 +184,8 @@ main section h2, main section p {
 
 main section p {
   line-height: 1.5rem;
-  color: rgb(0, 0, 0)e;
+  color: rgb(0, 0, 0);
+  font-size: larger;
 }
 
 .btn {
@@ -214,6 +215,11 @@ main section p {
 }
 div#container p {
   grid-column: 2/5;
+}
+
+div#container {
+  grid-column: 1/5;
+  text-align: center;
 }
 
 div#spot-content {
@@ -344,6 +350,10 @@ h3 {
   grid-row: 1/1;
   grid-column: 1/1;
 }
+
+h1 {
+  font-size: 25pt;
+}
 section.contact-info {
   grid-column: 3/5;
   grid-row: 2/3;
@@ -358,10 +368,8 @@ section.contact-info-1{
   border-radius: 10px;
 }
 
-form {
-  grid-column: 2/4;
-  grid-row: 3/4;
-}
+
+
 /*----------- Weather ----------------*/
 div#weather {
   padding: 15px;

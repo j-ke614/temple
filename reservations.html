@@ -36,16 +36,16 @@
                 <li class="active"><a href="reservations.html">Reservations</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="missionary.html">Missionaries</a></li>
-                <li><a href="contact.html">Contact Us</a></li>    
+                <li><a href="reception.html">Receptions</a></li>  
             </ul>
         </nav>   
     </header>
 
 <!--CONTENT--> 
 <main>
-    <form>
-        <h1>Join</h1>
-        <p>Join the Cornburg Chamber of Commerce!</p>
+    <form id ="reservation">
+        <h1>Make a Reservation</h1>
+        <p>Welcome</p>
 
         <label for="FirstName"><b>First name</b></label>
         <input type="text" name="firstname" placeholder="Enter First name" required>
@@ -102,26 +102,12 @@
     
 </footer>
 <script src="js/scripts.js"></script>
-<script src="js/windchill.js"></script>
-<script src="js/last_visit.js"></script>
 <script>
 const today = new Date ();
 console.log(today);
 
     const dayNumber = today.getDay();
     console.log(dayNumber);
-
-    const banner = document.getElementById("banner");
-    if (dayNumber == 1) {
-        banner.classList.add("showme");
-    } else {
-        banner.classList.add("hideme");
-    }
-    if (dayNumber == 2) {
-        banner.classList.add("showme");
-    } else {
-        banner.classList.add("hideme");
-    }
 </script>
 </body>
 </html>
