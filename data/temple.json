@@ -5,27 +5,27 @@
         "address": "567 W 2nd S",
         "phone": "208 238 5897",
         "site": "idaho_falls_temple@lds.org",
-        "img": "/images/idaho-falls.jpg"
+        "img": "./images/idaho-falls.jpg"
       },
       {
         "name": "Boise Temple",
         "address": "3343 W Main",
         "phone": "208 924 5567",
         "site": "boise_temple@lds.org",
-        "img": "/images/boise-temple.jpg"
+        "img": "./images/boise-temple.jpg"
       },
       {
         "name": "Twins Falls Temple",
         "address": "17 S 17th St",
         "phone": "208 655 7895",
         "site": "twin_falls_temple@lds.org",
-        "img": "/images/twin-falls.jpg"
+        "img": "./images/twin-falls.jpg"
       },
       { "name": "Meridian Temple",
         "address": "2456 S Locust Grove",
         "phone": "208 924 5567",
         "site": "boise_temple@lds.org",
-        "img": "/images/meridian.jpg"
+        "img": "./images/meridian.jpg"
       }
     ]
   }
